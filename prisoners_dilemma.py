@@ -40,19 +40,8 @@ from os import listdir as ls
 # import example0, example1, example2, example3
 # CSP Block 1
 modules=[]
-<<<<<<< HEAD
-#import example0
-#modules.append(example0)
-#import example1
-#modules.append(example1)
-#import example2
-#modules.append(example2)
-#import example3
-#modules.append(example3)
-# Add your module below
-#import team_student1
-#modules.append(team_student1)
-=======
+
+
 import example0
 modules.append(example0)
 import example1
@@ -64,7 +53,7 @@ modules.append(example3)
 #Add your module below
 #import team_germans2
 #modules.append(team_germans2)
->>>>>>> d8e645b0f752e1fa592085301b48b82c3a838108
+
 
 files = ls()
 for f in ls():

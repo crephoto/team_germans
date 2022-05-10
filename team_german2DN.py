@@ -28,10 +28,10 @@ def move(my_history, their_history, my_score, their_score):
         return 'b' # Betray if they were severely punished last time,
     else:
         return 'c' # otherwise collude.
-'''
-if len(my_history)==0: #first round
-    return 'b'
-elif my_history[-1]=='b' and thier_history[-1]=='b':
-    return 'c'
-else:
-    return 'b'
+#'''
+#if len(my_history)==0: #first round
+#    return 'b'
+#elif my_history[-1]=='b' and thier_history[-1]=='b':
+#    return 'c'
+#else:
+#    return 'b'
