@@ -29,5 +29,14 @@ def move(my_history, their_history, my_score, their_score):
     else:
         return 'c' # otherwise collude.
 
+<<<<<<< HEAD
+#if len(my_history)==0: #first round
+#    return 'b'
+#elif my_history[-1]=='b' and thier_history[-1]=='b':
+#    return 'c'
+#else:
+#    return 'b'
+=======
         '''
         
+>>>>>>> 270874a8602ffa8984f2a58f94f8a6bc8cef1a99
