@@ -24,7 +24,7 @@ def move(my_history, their_history, my_score, their_score):
     '''
     if len(my_history)==0: # It's the first round; collude.
         return 'b'
-    elif my_history[-1]=='c' and their_history[-1]=='b' or my_history[-1]=='b' and thier_history[-1]=='b' or my_history[-1]=='b'and thier_history[-1]=='c' :
+    elif my_history[-1]=='c' and their_history[-1]=='b' or my_history[-1]=='b' and their_history[-1]=='b' or my_history[-1]=='b'and their_history[-1]=='c' :
         return 'b' # Betray if they were severely punished last time,
     else:
         return 'c' # otherwise collude.
