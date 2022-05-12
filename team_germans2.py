@@ -7,8 +7,7 @@
 ####
 team_name = 'Germans'
 strategy_name = 'Wolf Pack'
-strategy_description = '''
-hammer them if the make a mistake.'''
+strategy_description = '''hammer them if the make a mistake.'''
 
 def move(my_history, their_history, my_score, their_score):
     '''Make my move based on the history with this player.
@@ -23,7 +22,7 @@ def move(my_history, their_history, my_score, their_score):
 
 
     if len(my_history)==0: # It's the first round; collude.
-        return 'b'
+        return 'c'
 
     elif my_history[-1]=='c' and their_history[-1]=='b' or my_history[-1]=='b' and their_history[-1]=='b' or my_history[-1]=='b' and their_history[-1]=='c':
         return 'b' # Betray if they were severely punished last time,
