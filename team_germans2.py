@@ -7,8 +7,7 @@
 ####
 team_name = 'Germans'
 strategy_name = 'Wolf Pack'
-strategy_description = '''
-hammer them if the make a mistake.'''
+strategy_description = '''hammer them if the make a mistake.'''
 
 def move(my_history, their_history, my_score, their_score):
     '''Make my move based on the history with this player.
