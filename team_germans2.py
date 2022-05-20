@@ -28,6 +28,8 @@ def move(my_history, their_history, my_score, their_score):
         return 'b' # Betray if they were severely punished last time,
     #elif my_history[-1]=='c' and their_history[-1]=='c':
     #    return 'c'
+    if len(my_history) == 134:
+        return 'b'
     else:
         return 'c' # otherwise collude.
 
